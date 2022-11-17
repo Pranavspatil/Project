@@ -1,0 +1,13 @@
+datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password: 
+    driverClassName: org.h2.Driver
+
+spring: 
+    datasource:
+        platform: h2
+    h2: 
+        console:
+            enabled: true
+            path: /console/  
